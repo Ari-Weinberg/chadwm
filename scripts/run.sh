@@ -5,6 +5,6 @@ xbacklight -set 10 &
 feh --bg-fill ~/Pictures/wall/gruv.png &
 xset r rate 200 50 &
 picom &
-
+dex --autostart --environment dwm -s /etc/xdg/autostart/:~/.config/autostart/
 dash ~/.config/chadwm/scripts/bar.sh &
 while type chadwm >/dev/null; do chadwm && continue || break; done
